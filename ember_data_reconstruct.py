@@ -35,7 +35,7 @@ if __name__ == '__main__':
     os.chdir("Data\ember2018")
     print(os.getcwd())
 
-    # prep_json_files()
+    prep_json_files()
 
     num_files = 6
     file_path = [f'train_features_2_{x}.jsonl' for x in range(num_files)]
